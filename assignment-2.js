@@ -13,8 +13,13 @@ for (var i = 0; i < 7; i++){
 }
 console.log(line)
 
-
-// Challenge 2
+/**
+ * Challenge 2
+ * 
+ * Function isEven check if a number is even or odd.
+ * 
+ * @param {*} number 
+ */
 function isEven(number){
     if (isNaN(number))
         console.log("Given input is not a number.")
@@ -27,6 +32,3 @@ function isEven(number){
     }    
 }
 
-isEven("love")
-isEven(1020)
-isEven(7)
